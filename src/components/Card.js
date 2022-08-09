@@ -8,7 +8,7 @@ export default function Card({item: {id, title, body, image}}) {
         <p>{body}</p>
       </div>
       <div>
-        <img src={`./images/${image}`} alt="name" />
+        <img src={`./images/${image}`} alt={`${image}`} />
       </div>
     </StyledCard>
   )
